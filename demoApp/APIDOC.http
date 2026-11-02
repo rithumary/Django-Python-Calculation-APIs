@@ -1,0 +1,45 @@
+###
+POST http://localhost:8000/factorial/
+Content-Type: application/json
+
+{
+    "num":4
+}
+
+###
+POST http://localhost:8000/armstrong/
+Content-Type: application/json
+
+{
+    "num":153
+}
+
+###
+POST http://localhost:8000/product-profit/
+Content-Type: application/json
+
+{
+    "cost_price":800,
+    "selling_price":1000,
+    "quantity":25
+}
+
+###
+POST http://localhost:8000/work-salary/
+Content-Type: application/json
+
+{
+    "hours_worked":180,
+    "regular_hours":160,
+    "hourly_rate":200,
+    "overtime_rate":300
+}
+
+
+###
+post http://localhost:8000/age-details/
+Content-Type: application/json
+
+{
+    "Age":25
+}
